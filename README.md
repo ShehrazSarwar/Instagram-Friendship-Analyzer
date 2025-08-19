@@ -1,106 +1,71 @@
-```markdown
 # 📊 Instagram Friendship Analyzer
 
-Instagram Friendship Analyzer is a **Streamlit web app** that lets you explore and analyze your Instagram friendships using your **officially downloaded JSON data**.  
-It provides fun insights like:
-- 📨 **Message analysis** (counts, reply times, top friends & "snakes")
-- 📖 **Story interactions** (likes on friends’ stories)
-- 👥 **Followers, Following & Close Friends**
-- 🎯 **Search & filter friends** with an interactive interface
-- 📊 **Charts and visualizations** for reply times
+**Instagram Friendship Analyzer** is an interactive **Streamlit app** that processes your official **Instagram data download (JSON ZIP)** and reveals fun insights about your friendships.
+
+It shows:
+
+* 📨 **Message analysis** — counts, reply times, and conversation stats.
+* 🏆 **Top 10 Friends & Top 10 Snakes** 🐍 (just for fun).
+* 📖 **Story interactions** — who you liked most.
+* 👥 **Followers, Following, and Close Friends** overview.
+* 🎯 **Search & filter options** for exploring friendships individually.
 
 ---
 
 ## 🚀 Features
-- **Upload your Instagram ZIP** (downloaded from Instagram Data request).
-- Automatic **username detection** and ZIP validation.
-- Skips **group chats** and **deactivated accounts**.
-- **Reply time statistics** per friend: average, fastest, slowest.
-- **Top 10 Friends** (closest by fastest replies).
-- **Top 10 Snakes 🐍** (slowest to reply, just for fun).
-- **Story interactions** dashboard.
-- **Followers, following, and close friends** count.
-- **Interactive filters** to search by individual friends.
-- **Charts** built with Altair for visual insights.
+
+* Upload your **Instagram ZIP** (downloaded via *Download Your Information* request).
+* Detects **username** automatically from ZIP.
+* Skips **group chats** & **deactivated accounts** for cleaner results.
+* Reply time statistics: **average, fastest, slowest**.
+* Interactive **charts & tables** using Altair + Pandas.
+* Story likes breakdown and **friend-specific dashboards**.
 
 ---
 
 ## 📥 How to Get Your Instagram Data
-1. Open **Instagram App** → Profile → **☰ Menu**.  
+
+1. Open **Instagram App** → Profile → **☰ Menu**.
    Go to **Settings and privacy → Your information and permissions → Download your information**.
-2. Select **All of your information** and choose **JSON** format.  
-   *(You may skip Ads/Monetization files.)*
-3. Instagram emails you a **ZIP file** → download it.
-4. Upload the **ZIP (without unzipping)** to this app.
+2. Select **All of your information** → choose **JSON** format.
+   *(You can skip Ads/Monetization files.)*
+3. Instagram emails you a **ZIP file**.
+4. Upload the ZIP (without unzipping) into this app.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Python**
-- **Streamlit** — UI framework
-- **Pandas & NumPy** — data analysis
-- **Altair** — charts/visualizations
-- **JSON & Zipfile** — parsing Instagram data
-- **Logging** — robust error handling
+
+* **Python 3**
+* **Streamlit** — web app framework
+* **Pandas & NumPy** — data analysis
+* **Altair** — charts and visualizations
+* **JSON + Zipfile** — parsing Instagram export data
+* **Logging** — robust error handling
 
 ---
 
 ## 📂 Project Structure
+
+```
+📁 instagram-friendship-analyzer
+ ┣ 📄 app.py              # Main Streamlit app
+ ┣ 📄 requirements.txt    # Dependencies
+ ┣ 📄 README.md           # Project documentation
+ ┗ 📁 sample_data         # (Optional) Example Instagram ZIP structure
 ```
 
-📁 instagram-friendship-analyzer
-┣ 📄 app.py              # Main Streamlit app
-┣ 📄 requirements.txt    # Dependencies
-┣ 📄 README.md           # Project documentation
-┗ 📁 sample\_data         # (Optional) Example structure of Instagram ZIP
+## 📊 Example Insights
 
-````
-
----
-
-## ⚡ Usage
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/yourusername/instagram-friendship-analyzer.git
-   cd instagram-friendship-analyzer
-````
-
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Streamlit app:
-
-   ```bash
-   streamlit run app.py
-   ```
-4. Upload your Instagram ZIP and explore results 🎉
+* **Top 10 Closest Friends** — fastest repliers.
+* **Top 10 Snakes 🐍** — slowest repliers (for fun).
+* **Story Likes Leaderboard** — friends you interact with most.
+* **Individual Friend Dashboard** — reply breakdown + charts.
 
 ---
 
 ## 🔒 Privacy
 
 * All analysis is done **locally in your session**.
-* Media files and ad/monetization data are ignored.
-* No data is uploaded to external servers.
-
----
-
-## 📊 Example Insights
-
-* **Top 10 Closest Friends** — fastest repliers.
-* **Top 10 Snakes 🐍** — slowest repliers.
-* **Story likes leaderboard**.
-* **Reply time breakdown** for each friend (Average, Fastest, Slowest).
-
----
-
-## 🏆 Why This Project?
-
-This project demonstrates:
-
-* Real-world **data cleaning & analysis** using Pandas/NumPy.
-* Interactive **web apps** with Streamlit.
-* Parsing **nested JSON from ZIP files**.
-* Building **visual analytics dashboards**.
+* Media files and ads data are ignored.
+* Nothing is uploaded or stored externally.
