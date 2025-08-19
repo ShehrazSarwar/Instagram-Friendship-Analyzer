@@ -50,9 +50,7 @@ It shows:
 ```
 📁 instagram-friendship-analyzer
  ┣ 📄 app.py              # Main Streamlit app
- ┣ 📄 requirements.txt    # Dependencies
  ┣ 📄 README.md           # Project documentation
- ┗ 📁 sample_data         # (Optional) Example Instagram ZIP structure
 ```
 
 ## 📊 Example Insights
