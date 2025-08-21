@@ -1,4 +1,3 @@
-```markdown
 # 📊 Instagram Friendship Analyzer
 
 Analyze your Instagram friendships using **messages, story interactions, close friends, and favorites**.  
