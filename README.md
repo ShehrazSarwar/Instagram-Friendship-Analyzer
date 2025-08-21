@@ -39,13 +39,20 @@ This project lets you upload your Instagram data export (ZIP) and discover hidde
 ---
 
 ## 🚀 How It Works
-1. **Request your Instagram data** (JSON format).  
-   - Mobile: Profile → ☰ Menu → Settings → Your information → Download Your Information  
-   - Desktop: Settings → Privacy & Security → Download Your Information  
-   - Select **JSON** format  
-2. Instagram emails you a **ZIP file**.  
-3. Upload the **ZIP** into this app.  
-4. Get insights on your friendships with **filters, rankings, and charts**.  
+1. **Request your Instagram data** (in **JSON format**).  
+   - **Mobile**: Profile → ☰ Menu → Settings → Your Information → Download Your Information  
+   - **Desktop**: Settings → Privacy & Security → Download Your Information  
+   - Make sure to select **JSON** format (not HTML).  
+2. Instagram will email you a **ZIP file** containing your data.  
+3. **Upload the ZIP file** into this app.  
+4. Explore insights about your friendships with **filters, rankings, and interactive charts**.  
+
+💡 You can also choose how much data to request (e.g., **1 year, 3 years, or all-time**) and limit the download to specific categories like:
+- **Likes**  
+- **Story Interactions**  
+- **Messages**  
+- **Contacts**  
+- **Followers & Following**  
 
 ---
 
