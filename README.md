@@ -1,4 +1,5 @@
 [📖 Open PDF in GitHub](https://github.com/ShehrazSarwar/Instagram-Friendship-Analyzer/blob/main/Instagram-Friendship-Analyzer.pdf)
+<img width="1022" height="525" alt="image" src="https://github.com/user-attachments/assets/7d36eabd-5af3-4105-a10a-18f8d5e92cf3" />
 
 # 📊 Instagram Friendship Analyzer
 
