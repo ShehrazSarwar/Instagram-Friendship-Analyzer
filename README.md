@@ -54,8 +54,6 @@ This project lets you upload your Instagram data export (ZIP) and discover hidde
 🔹 *See top friends vs slow repliers*  
 🔹 *Dive deep into one-on-one friendship insights*  
 
-*(📸 Add screenshots here when you run the app — e.g., charts, metrics, filters)*  
-
 ---
 
 ## 📊 Example Insights
