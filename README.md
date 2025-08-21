@@ -20,11 +20,11 @@ This project lets you upload your Instagram data export (ZIP) and discover hidde
 ```
 
 .
-├── FriendAnalyzerIG.py              # Core DS/Analytics logic (your implementation)
-├── FriendAnalyzerIG\_(EnhancedUI).py # Enhanced UI version (your logic + AI-assisted UI/UX)
+├── FriendAnalyzerIG.py               # Core DS/Analytics logic (your implementation)
+├── FriendAnalyzerIG\_(EnhancedUI).py  # Enhanced UI version (your logic + AI-assisted UI/UX)
 └── README.md
 
-````
+```
 
 ### 🔑 Key Difference Between Versions
 - **FriendAnalyzerIG.py**  
@@ -32,7 +32,7 @@ This project lets you upload your Instagram data export (ZIP) and discover hidde
   - Focused on **your original DS logic** (data wrangling, metrics, analysis)  
 
 - **FriendAnalyzerIG_(EnhancedUI).py**  
-  - Built on your same logic  
+  - Built on the same logic  
   - **AI-assisted UI enhancements**: custom CSS, animated titles, styled buttons, progress bars, polished charts  
   - Shows how the app can look in a **production-style dashboard**  
 
@@ -40,12 +40,12 @@ This project lets you upload your Instagram data export (ZIP) and discover hidde
 
 ## 🚀 How It Works
 1. **Request your Instagram data** (JSON format).  
-   - Mobile: Profile → ☰ Menu → Settings → Your information → Download Your Information.  
-   - Desktop: Settings → Privacy & Security → Download Your Information.  
-   - Select **JSON** format.  
+   - Mobile: Profile → ☰ Menu → Settings → Your information → Download Your Information  
+   - Desktop: Settings → Privacy & Security → Download Your Information  
+   - Select **JSON** format  
 2. Instagram emails you a **ZIP file**.  
 3. Upload the **ZIP** into this app.  
-4. Get insights on your friendships with **filters, rankings, and charts**.
+4. Get insights on your friendships with **filters, rankings, and charts**.  
 
 ---
 
@@ -55,62 +55,27 @@ This project lets you upload your Instagram data export (ZIP) and discover hidde
 🔹 *See top friends vs slow repliers*  
 🔹 *Dive deep into one-on-one friendship insights*  
 
-*(Add screenshots here when you run the app — e.g., charts, metrics, filters)*
-
----
-
-## ⚙️ Installation & Usage
-
-### 1. Clone Repo
-```bash
-git clone https://github.com/yourusername/InstagramFriendshipAnalyzer.git
-cd InstagramFriendshipAnalyzer
-````
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Minimal requirements:
-
-```txt
-streamlit
-pandas
-numpy
-altair
-```
-
-### 3. Run the App
-
-```bash
-streamlit run FriendAnalyzerIG_(EnhancedUI).py
-```
+*(📸 Add screenshots here when you run the app — e.g., charts, metrics, filters)*  
 
 ---
 
 ## 📊 Example Insights
-
-* **Best Friends (Top 10)**: Ranked by fastest reply times.
-* **Slow Repliers (Top 10)**: Longest average reply times (for fun 🐍).
-* **Individual Friend Analysis**: Reply time breakdown + ranking percentile.
-* **Overall Analytics**: Total messages, followers/following counts, story likes.
+- **Best Friends (Top 10)**: Ranked by fastest reply times  
+- **Slow Repliers (Top 10)**: Longest average reply times (for fun 🐍)  
+- **Individual Friend Analysis**: Reply time breakdown + ranking percentile  
+- **Overall Analytics**: Total messages, followers/following counts, story likes  
 
 ---
 
 ## 🔒 Privacy
-
-* Runs **locally** in your browser session.
-* Only processes **metadata** (timestamps, participants, counts).
-* Ignores **media files, ads, monetization data**.
-* No data is stored or uploaded anywhere.
+- Runs **locally** in your browser session  
+- Only processes **metadata** (timestamps, participants, counts)  
+- Ignores **media files, ads, monetization data**  
+- No data is stored or uploaded anywhere  
 
 ---
 
 ## 👨‍💻 Author
-
-* **Sheeraz Sarwar**
-  📌 Data Science & Analytics Enthusiast
-  
+- **Sheeraz Sarwar**  
+  📌 Data Science & Analytics Enthusiast  
 ```
