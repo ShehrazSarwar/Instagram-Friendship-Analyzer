@@ -1,3 +1,5 @@
+[📖 Open PDF in GitHub](https://github.com/ShehrazSarwar/Instagram-Friendship-Analyzer/blob/main/Instagram-Friendship-Analyzer.pdf)
+
 # 📊 Instagram Friendship Analyzer
 
 Analyze your Instagram friendships using **messages, story interactions, close friends, and favorites**.  
