@@ -958,8 +958,8 @@ try:
 
                     try:
                         # Create enhanced chart with better styling
-                        base_chart = alt.Chart(new_df).add_selection(
-                            alt.selection_single()
+                        base_chart = alt.Chart(new_df).add_params(
+                            alt.selection_point()
                         )
                         
                         chart = base_chart.mark_bar(
@@ -1023,8 +1023,8 @@ try:
 
                     try:
                         # Create enhanced chart for slow repliers
-                        base_chart = alt.Chart(new_df).add_selection(
-                            alt.selection_single()
+                        base_chart = alt.Chart(new_df).add_params(
+                            alt.selection_point()
                         )
                         
                         chart = base_chart.mark_bar(
