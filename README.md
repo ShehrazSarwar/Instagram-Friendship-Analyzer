@@ -77,4 +77,3 @@ This project lets you upload your Instagram data export (ZIP) and discover hidde
 ## 👨‍💻 Author
 - **Sheeraz Sarwar**  
   📌 Data Science & Analytics Enthusiast  
-```
