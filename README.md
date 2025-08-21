@@ -112,3 +112,5 @@ streamlit run FriendAnalyzerIG_(EnhancedUI).py
 
 * **Sheeraz Sarwar**
   📌 Data Science & Analytics Enthusiast
+  
+```
